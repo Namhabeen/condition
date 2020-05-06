@@ -83,6 +83,16 @@ namespace cscondition
                     Console.WriteLine("지구인이 아니신가보군요!");
                     break;
             }
+            Console.Write("입력: ");
+            String line = Console.ReadLine();
+            if (line.Contains("안녕"))
+            {
+                Console.WriteLine("안녕하세요!");
+            }
+            else
+            {
+                Console.WriteLine("인사를 안하는건가 혹쉬");
+            }
         }
     }
 }
